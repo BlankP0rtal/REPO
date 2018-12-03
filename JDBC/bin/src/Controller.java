@@ -9,4 +9,9 @@ public class Controller{
 	public Contoller(String mapper){
 		this.mapper = mapper;
 	}
+
+	public HttpResponse responseDispatcher(HttpResponse response){
+		response.setContentType("application/json");
+		return response;
+	}
 }
