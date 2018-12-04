@@ -20,6 +20,8 @@ JDBC-sample work
 		-> alter in product_class
 		-> new functionality added in TestUtil
 		-> Update for the insert on prod
+		-> Supported with Model,view
+		-> Updated controllers
 
 	ENJOY!!
 		------------------() -> {}--------------------
