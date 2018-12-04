@@ -175,13 +175,7 @@ public class ContextClass{
 	public void insertProduct(){
 	}
 
-	public void insertProducts(List<Product> products){
-		this.products = products;
-		//This is a dummy line
-		products.forEach(product -> {
-			statment = sqlStatement.prepareInsertStatment(Product.class,product);
-			statment.executeQuery();
-		}
+	public void insertProducts(){
 	}
 
 	public List<Customer> getTopCustomers(Timestamp from,Timestamp to) throws SQLException{
