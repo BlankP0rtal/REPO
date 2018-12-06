@@ -13,7 +13,7 @@ JDBC-sample work
 		-> clone this repo
 		-> download postgers from {here}
 		-> once postgres is installed type this -> psql <dbname> < <file in cloned db folder>
-		-> run the run.sh in terminal
+		-> run the run.sh in wterminal
 		
 	Recent Changes:
 		-> controller_added
