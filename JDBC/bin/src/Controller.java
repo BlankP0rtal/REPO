@@ -9,4 +9,8 @@ public class Controller{
 	public Contoller(String mapper){
 		this.mapper = mapper;
 	}
+
+	public Skill skillGenerator(PramsLoader params, List<SkillSet> skillSets, Action types){
+		return new Skill();
+	}
 }
