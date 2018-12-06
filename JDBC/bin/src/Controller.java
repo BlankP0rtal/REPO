@@ -9,12 +9,4 @@ public class Controller{
 	public Contoller(String mapper){
 		this.mapper = mapper;
 	}
-
-	public ApiUtil getApiLoaders(){
-		
-	}
-
-	public Skill skillGenerator(PramsLoader params, List<SkillSet> skillSets, Action types){
-		return new Skill();
-	}
 }
