@@ -11,9 +11,7 @@ public class CustomerAction{
 	public ContextClass dbContext = null;
 	
 	public CustomerAction(ContextClass dbContext){
-		
 		this.dbContext=dbContext;
-	
 	}
 
 
